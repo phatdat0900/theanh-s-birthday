@@ -35,7 +35,7 @@ function App() {
       <p>Để bắt đầu <br></br>hãy trả lời những câu hỏi sau ...</p>
       </div>
            
-      <button onClick={handleSelect} className="button slide-up delay-1">Nhấn để gặpThomas</button>
+      <button onClick={handleSelect} className="button slide-up delay-1">Nhấn để gặp Thomas</button>
       </div>
   
   )}

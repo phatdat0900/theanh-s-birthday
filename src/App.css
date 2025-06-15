@@ -448,6 +448,28 @@ margin-bottom: -10px;
   justify-content: center;
   padding: 20px;
   background-color: #fff; 
+
+}
+  .video_camlanh{
+    position: relative;
+   width: 70%;
+   height:clamp(250px, 75vw, 520px);;
+   margin: 0 auto;
+  }
+  .video_container{
+    position: absolute;
+       width: 100%;
+   height:clamp(250px, 75vw, 520px);;
+    bottom: 4.9%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    margin-bottom:-10px ;
+  }
+  @media (min-width: 700px) {
+  .video_container {
+    margin-bottom: -10px;
+  }
 }
 .slide-up {
   transform: translateY(20px); /* bắt đầu ở dưới */
