@@ -18,7 +18,7 @@ export default function VideoStep({  onSelect }) {
   
 
       <div className="video_script slide-up delay-2">Hành trình trưởng thành của bé luôn đáng yêu và đáng nhớ!  Hãy cùng nhìn lại những khoảnh khắc rạng rỡ với một món quà kỷ niệm handmade đầy yêu thương. Đây không chỉ là phần thưởng mà còn là lời động viên, ghi dấu những nỗ lực và niềm vui của bé.</div>
-       <button onClick={onSelect} className="button black slide-up delay-2"> Nhận bánh</button>
+       <button onClick={onSelect} className="button black slide-up delay-3"> Nhận bánh</button>
       </div>
       
     );
