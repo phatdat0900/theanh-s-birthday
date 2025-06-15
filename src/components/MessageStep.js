@@ -2,7 +2,7 @@ export default function MessageStep({ content, onSelect }) {
   return (
     <div className="content-step">
       <img src="/images/TRANG-12.webp" alt="pic" className="pic slide-up " />
-      <div className="video_container slide-up delay-1">  
+      <div className=" slide-up-video delay-1 video_container">  
       <div className="video_camlanh">
         <iframe
           src="//drive.google.com/file/d/1XlRkvshI0rIJajMMqwWj1O5f63Ma30dy/preview"
@@ -20,7 +20,7 @@ export default function MessageStep({ content, onSelect }) {
         ></iframe>
       </div></div>
     
-      <button onClick={onSelect} className="button slide-up delay-2">
+      <button onClick={onSelect} className="slide-up-video delay-2 button ">
         Còn tiếp nè
       </button>
     </div>

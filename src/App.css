@@ -483,6 +483,20 @@ margin-bottom: -10px;
     opacity: 1;
   }
 }
+.slide-up-video {
+  transform: translateY(20px); /* bắt đầu ở dưới */
+  animation: slideUpVideo 1s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes slideUpVideo {
+  to {
+    transform: translate(-50%,0);
+    
+    opacity: 1;
+  }
+}
+
 .delay-1 { animation-delay: 0.5s; }
 .delay-2 { animation-delay: 1s; }
 .delay-3 { animation-delay: 1.5s; }
